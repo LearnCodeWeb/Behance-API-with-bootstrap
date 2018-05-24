@@ -1,7 +1,7 @@
 <?php include_once('../config.php');
 	extract($_REQUEST);
 	if($page!=""){
-		$p		=	$behanceData->getUserProjects('QURESHI',array('per_page'=>25, 'page' => $page));
+		$p		=	$behanceData->getUserProjects('MianZaidBinKhalid',array('per_page'=>25, 'page' => $page));
 		if(!empty($p)){
 		foreach($p as $val){
 			$date	=	$val->published_on;
