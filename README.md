@@ -5,6 +5,6 @@ In **ajax** folder open `getProjects.php` file and set your behance name as per 
 
 Pass **user name** and set **per page** value.
 
-$behanceData->getUserProjects('**QURESHI**',array('per_page'=>**25**, 'page' => $page));
+  `$behanceData->getUserProjects('**QURESHI**',array('per_page'=>**25**, 'page' => $page));`
 
 Fnacy box3 licenced [https://fancyapps.com/fancybox/3/#license]
