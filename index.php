@@ -29,7 +29,7 @@
 						}
 					});
 					$('#<?php echo $val->id; ?>, #url_<?php echo $val->id; ?>').click(function() {
-						window.history.pushState("", "", '/azcreativeworld/projects/d-<?php echo $val->id; ?>#<?php echo $val->id; ?>');
+						window.history.pushState("", "", '/behance/projects/d-<?php echo $val->id; ?>#<?php echo $val->id; ?>');
 					});
 					//$.fancybox.open({href: "#<?php echo $val->id; ?>"});
 				});
