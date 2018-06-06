@@ -7,4 +7,7 @@ Pass **user name** and set **per page** value.
 
   `$behanceData->getUserProjects('QURESHI',array('per_page'=>25, 'page' => $page));`
 
+
+![alt text](read-images/behance-api-bootstrap.png)
+
 Fnacy box3 licenced [https://fancyapps.com/fancybox/3/#license]
