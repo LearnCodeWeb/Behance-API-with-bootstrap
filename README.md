@@ -1,13 +1,6 @@
 # Behance-API-with-bootstrap
 Behance API implementation with bootstrap and fancybox.
 
-In **ajax** folder open `getProjects.php` file and set your behance name as per your need.
+Online complete documentation <a href="https://learncodeweb.com/web-development/behance-api-with-bootstrap-using-php/">Click here</a>
 
-Pass **user name** and set **per page** value.
-
-  `$behanceData->getUserProjects('QURESHI',array('per_page'=>25, 'page' => $page));`
-
-
-![alt text](read-images/behance-api-bootstrap.png)
-
-Fnacy box3 licenced [https://fancyapps.com/fancybox/3/#license]
+Working example <a href="https://demo.learncodeweb.com/web-development/behance-api-with-bootstrap-using-php/">View Demo</a>
